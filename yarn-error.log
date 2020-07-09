@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/Cellar/node/13.10.1/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js cypress:open
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/macbook/Library/Android/sdk/tools:/Users/macbook/Library/Android/sdk/tools/bin:/Users/macbook/Library/Android/sdk/platform-tools:/Users/macbook/.composer/vendor/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.10.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/macbook/projects/cypresstest/package.json: Unexpected token } in JSON at position 237
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "cypresstest",
+    "version": "0.1.0",
+    "description": "end-to-end testing using cypress",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "cypress:open": "cypress open", 
+    },
+    "keywords": [
+      "cypress",
+      "testing"
+    ],
+    "author": "Nur Shalahuddin F.",
+    "license": "ISC",
+    "devDependencies": {
+      "cypress": "^4.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://github.com",
+  "integrationFolder": "tests",
+  "reporter": "spec",
+  "testFiles": "**/*.*"
+}
